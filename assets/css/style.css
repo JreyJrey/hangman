@@ -1,0 +1,50 @@
+#mainsection{
+	/*float: left;*/
+}
+
+#hangman{
+	/*float: right;*/
+	size: auto;
+	text-align: center;
+}
+.letter {
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    padding: 2px;
+    float: left;
+    margin: 2px;
+  }
+  .letter-button-color {
+    color: darkcyan;
+  }
+  .fridge-color {
+    color: orange;
+}
+#mainsection{
+	text-align: center;
+}
+#hangman{
+	text-align: center;
+}
+#lettersGuessed{
+	text-align: center;
+}
+  #display {
+    margin-top: 78px;
+    height: 500px;
+    width: 220px;
+    margin-left: 60px;
+  }
+  #buttons {
+  	
+    padding-top: 60px;
+  }
+#result{
+	text-align: center;
+	font-size: 22px;
+}
+#Guess{
+	text-align: center;
+	font-size: 22px;
+}
